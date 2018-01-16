@@ -1,6 +1,8 @@
 # Skills
-- skill: webdevelopment
-  description: JavaScript, Ruby, CSS, HTML5, Ruby on Rails, MySQL, database, Node.js, Express.js, Teamwork, React, Redux, Sass, SCRUM, Agile, SVG, Rspec, Chai, enzym, Capybarra.
+- skill: Web-development
+  description: JavaScript, Ruby, Ruby on Rails, CSS, HTML, SQL Database, MongoDB, Bootstrap, Materal-ui, Web SOcket, GIT, Node.js, Express.js, React, Redux, Rspec, Chai, Capybarra.
+- skill: Accounting
+  description: Microsoft Dynamics AX, Payment Authorization Database, Microsoft Office package, Bank Statements, Account Reconciliation, Bank-Client System
 
 - skill: Languages
-  description: Dutch C2, English C2, Spanish C1, French B1, German A2
+  description: Russian (native speaker), English (fluent), Dutch (beginner level)

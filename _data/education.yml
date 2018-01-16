@@ -4,12 +4,7 @@
   year: 2017 &mdash; 2018
   summary: The Codaisseur Academy is an immersive 2 month course on complete stacks composed of Ruby, RSpec, Rails, JS/Node (incl. ES6), Mocha, Chai, React, SQL, HTML5 and CSS3. Project workflow includes code reviews and quality assessments, standard practices such as TDD, basics of product development, UX design, domain modeling and team collaboration using modern tools like Atom, Git, Github, CI and Slack.
 
-- degree: Bachelor Philophy
-  uni: University of Antwerp
-  year: 2013 &mdash; 2017
-  award: Minor Theatre and movie sciences.
-  award: Erasmus at Universidad Complutense Madrid, Fully Spanish.
-
-- degree: VWO
-  uni: Amsterdams Lyceum
-  year: 2012
+- degree: Master's degree
+  uni: Belarus State Economic University
+  year: 2007 &mdash; 2012
+  summary: Accounting, analysis and audit in manufacturing
