@@ -46,6 +46,26 @@
 
       </header>
 
+      {% if site.resume_section_links %}
+      <!-- begin Links -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>AWS Certifications</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for link in site.data.links %}
+            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Links -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -153,24 +173,44 @@
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
+      {% if site.resume_section_certifications %}
+      <!-- begin Certifications -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2>Licenses & certifications</h2>
         </header>
 
-        {% for association in site.data.associations %}
+        {% for certification in site.data.certifications %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
+          <h3 class="resume-item-title" itemprop="name">{% if certification.url %}<a href="{{ certification.url }}">{{ certification.organization }}</a>{% else %}{{ certification.organization }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ certification.role }} &bull; {{ certification.year }}</h4>
+          <p class="resume-item-copy">{{ certification.summary }}</p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Associations -->
+      <!-- end Certifications -->
+      {% endif %}
+
+      {% if site.resume_section_certifications %}
+      <!-- begin Volunteer Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Volunteer Experience</h2>
+        </header>
+
+        {% for volunteer_experience  in site.data.volunteer_experience  %}
+        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{% if volunteer_experience.url %}<a href="{{ volunteer_experience.url }}">{{ volunteer_experience.organization }}</a>{% else %}{{ volunteer_experience.organization }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ volunteer_experience.role }} &bull; {{ volunteer_experience.year }}</h4>
+          <p class="resume-item-copy">{{ volunteer_experience.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Certifications -->
       {% endif %}
 
       {% if site.resume_section_interests %}
@@ -191,26 +231,6 @@
 
       </section>
       <!-- end Interests -->
-      {% endif %}
-
-      {% if site.resume_section_links %}
-      <!-- begin Links -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Additional Links</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Links -->
       {% endif %}
 
       {% if site.resume_print_social_links %}

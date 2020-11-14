@@ -1,4 +1,8 @@
 # Jobs
+- company: Sentia
+  position: Junior Cloud Systems Engineer
+  duration: Apr, 2018 &mdash; present
+  summary: </li><li>CI/CD development and implementation (Bamboo, Wercker, CodeBuild and CodeDeploy)</li><li>Developing all infrastructure through CloudFormation templates</li><li>Organizing code with Git repositories and applying Git flow principles for all code changes</li><li>Development of Docker containers and K8S</li><li>Experience with automating Amazon Machine Images (AMI) with Chef and Packer</li><li>AWS cost optimization</li><li>Applying design for failure principles in every solution</li><li>Experience with supporting hosted / cloud systems for clients in a 24x7 environment (including night shifts)</li><li>Experience with automation tools such as AWS CDK and our own infra as code system Halloumi (Ruby based)</li><li>Working in an enthusiastic, committed and highly skilled AWS experts teams</li></ul>
 
 - company: Ersnt and Young
   position: Accountant(audit support)

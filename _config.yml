@@ -11,12 +11,12 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Veranika Isakova"
-resume_title:                   "Junior Web Developer"
+resume_title:                   "Cloud Systems Engineer"
 resume_contact_email:           "veranika.isakova89@gmail.com"
 resume_contact_telephone:       "+31 6 14517801"
-resume_contact_address:         "Sonmansstraat 5B, 3039DG Rotterdam"
-resume_header_contact_info: "Sonmansstraat 5B, Rotterdam | +31614517801 | veranika.isakova89@gmail.com"
-resume_header_intro: "<p>Recent graduate of a full-stack web development course, currently seeking opportunities for a role of a Junior Web Developer. Experienced in Ruby (Ruby on Rails), Javascript (React, Redux, Express) and excited to begin full-stack development.</p>"
+resume_contact_address:         "Pompenburg 292, 3032EM Rotterdam"
+resume_header_contact_info: "Pompenburg 292, 3032EM Rotterdam | +31614517801 | veranika.isakova89@gmail.com"
+resume_header_intro: "<p>Cloud Systems Engineer specialised in building high-availability environments using automation (Infrastructure as Code) combined with Continuous Integration and Continuous Delivery (CI/CD).</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -31,8 +31,9 @@ resume_section_education:       true
 # resume_section_projects:        true
 resume_section_skills:          true
 # resume_section_recognition:     true
-# resume_section_links:           true
-resume_section_associations:    true
+resume_section_links:           true
+resume_section_certifications:  true
+resume_section_volunteer_experience:  true
 resume_section_interests:       true
 
 # Resume social links
@@ -43,7 +44,7 @@ resume_social_links:
   # resume_dribbble_url:          "https://dribbble.com/jag"
   resume_facebook_url:          "https://www.facebook.com/veronika.isakova"
   resume_linkedin_url:          "https://www.linkedin.com/in/veranika-isakova"
-  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_instagram_url:         "https://www.instagram.com/veron.isakova"
   # resume_website_url:           "http://joelglovier.com"
 resume_print_social_links:      true
 

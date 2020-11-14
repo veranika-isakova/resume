@@ -1,6 +1,8 @@
 # Skills
+- skill: DevOps
+  description: Amazon Web Services (AWS), Automation, CI/CD development, Bamboo, Wercker, CloudFormation, Infrastructure as Code (IaC), AWS CDK, Serverless, Docker, K8S, Chef, Packer
 - skill: Web-development
-  description: JavaScript, Ruby, Ruby on Rails, CSS, HTML, SQL Database, MongoDB, Bootstrap, Materal-ui, Web SOcket, GIT, Node.js, Express.js, React, Redux, Rspec, Chai, Capybarra.
+  description: JavaScript, Python, Ruby, Ruby on Rails, CSS, HTML, SQL Database, MongoDB, GIT, Node.js, React
 - skill: Accounting
   description: Microsoft Dynamics AX, Payment Authorization Database, Microsoft Office package, Bank Statements, Account Reconciliation, Bank-Client System
 
